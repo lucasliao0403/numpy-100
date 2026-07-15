@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(jupyter --version)",
-      "Bash(jupyter kernelspec *)"
+      "Bash(jupyter kernelspec *)",
+      "PowerShell(python -m pip install mdutils nbformat numpy)"
     ]
   }
 }
