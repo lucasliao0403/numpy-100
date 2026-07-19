@@ -458,6 +458,7 @@ print(Z)
 
 X = np.arange(8)
 Y = X + 0.5
+
 C = 1.0 / np.subtract.outer(X, Y)
 print(np.linalg.det(C))
 ```
@@ -483,13 +484,13 @@ print(Z)
 ```
 #### 50. How to find the closest value (to a given scalar) in a vector? (★★☆)
 
-
 ```python
 Z = np.arange(100)
 v = np.random.uniform(0,100)
 index = (np.abs(Z-v)).argmin()
 print(Z[index])
 ```
+
 #### 51. Create a structured array representing a position (x,y) and a color (r,g,b) (★★☆)
 
 

@@ -3,7 +3,8 @@
     "allow": [
       "Bash(jupyter --version)",
       "Bash(jupyter kernelspec *)",
-      "PowerShell(python -m pip install mdutils nbformat numpy)"
+      "PowerShell(python -m pip install mdutils nbformat numpy)",
+      "Bash(python3 *)"
     ]
   }
 }
